@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Black Jack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="full-body">
+    <h1>Black jack game</h1>
+<div class="boxes">
+    <div class="player">
+        <h1>Player 1 </h1>
+        <p id="message-el1">Want to play a round?</p>
+        <p id="cards-el1">Cards:</p>
+        <p id="sum-el1">Sum:</p>
+        <button onclick="startGame(1)">START GAME</button><br>
+        <button onclick="newCard(1)">NEW CARD</button><br>
+        <button onclick="newGame(1)">NEW Game</button>
+    </div>
+    <div class="player">
+        <h1>Player 2 </h1>
+        <p id="message-el2">Want to play a round?</p>
+        <p id="cards-el2">Cards:</p>
+        <p id="sum-el2">Sum:</p>
+        <button onclick="startGame(2)">START GAME</button><br>
+        <button onclick="newCard(2)">NEW CARD</button><br>
+        <button onclick="newGame(2)">NEW Game</button>
+    </div>
+    <div class="player">
+        <h1>Dealear </h1>
+        <p id="message-el3">Want to play a round?</p>
+        <p id="cards-el3">Cards:</p>
+        <p id="sum-el3">Sum:</p>
+        <button onclick="startGame(3)">START GAME</button><br>
+        <button onclick="newCard(3)">NEW CARD</button><br>
+        <button onclick="newGame(3)">NEW Game</button>
+    </div>
+</div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
